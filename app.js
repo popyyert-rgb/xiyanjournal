@@ -101,7 +101,7 @@ function formatDate(dateStr) {
 }
 
 function typeLabel(type) {
-  const map = { daily: '日志', skill: '技能', summary: '总结', insight: '洞察' };
+  const map = { daily: '日志', skill: '技能', summary: '总结', insight: '洞察', todo: '待办', 'cloud-wardrobe': '云衣橱' };
   return map[type] || type;
 }
 

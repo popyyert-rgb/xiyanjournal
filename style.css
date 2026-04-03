@@ -217,6 +217,8 @@ body {
 .entry-type.skill { background: #e8eef8; color: #2a4a8a; }
 .entry-type.summary { background: var(--accent-light); color: var(--accent); }
 .entry-type.insight { background: #f5eee8; color: #8a5a2a; }
+.entry-type.todo { background: #f0e8f5; color: #6a3a8a; }
+.entry-type.cloud-wardrobe { background: #e8f5f0; color: #2a6b5a; }
 
 .entry-title {
   font-family: var(--font-serif);
