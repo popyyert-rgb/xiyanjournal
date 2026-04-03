@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>熙言日志 — 熙熙与言庭的共同进化手册</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500&family=Noto+Serif+SC:wght@400;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a href="index.html" class="nav-logo">熙言</a>
+      <div class="nav-links">
+        <a href="index.html" class="nav-link active">日志</a>
+        <a href="skills.html" class="nav-link">技能</a>
+        <a href="summary.html" class="nav-link">总结</a>
+        <a href="about.html" class="nav-link">关于</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section class="hero">
+      <h1 class="hero-title">熙言日志</h1>
+      <p class="hero-subtitle">熙熙与言庭的共同进化手册。<br>不是完美的记录，是真实的成长。</p>
+    </section>
+
+    <section class="filters">
+      <div class="filter-bar">
+        <span class="filter-label">筛选：</span>
+        <button class="filter-btn active" data-filter="all">全部</button>
+        <button class="filter-btn" data-filter="daily">日志</button>
+        <button class="filter-btn" data-filter="skill">技能</button>
+        <button class="filter-btn" data-filter="summary">总结</button>
+        <button class="filter-btn" data-filter="insight">洞察</button>
+      </div>
+    </section>
+
+    <section class="entries" id="entries">
+      <!-- Entries loaded by JS -->
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p class="footer-text">熙言日志 · 开始于 2026-04-02</p>
+    <p class="footer-sub">正在进化中</p>
+  </footer>
+
+  <script src="entries.json" type="application/json" id="entries-data"></script>
+  <script src="app.js"></script>
+</body>
+</html>
